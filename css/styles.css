@@ -291,11 +291,11 @@ li {
     /* margin-left: 50%; */
 }
 
-@supports((text-stroke: 0.01px black) or (-webkit-text-stroke: 0.01px black)) {
+@supports((text-stroke: 0.01px #735e8f) or (-webkit-text-stroke: 0.01px #735e8f)) {
     .hero-subtitle {
         color: transparent;
         -webkit-text-stroke: 0.01px #735e8f;
-		text-stroke: 0.01px #735e8f;
+		/* text-stroke: 0.01px #735e8f; */
         text-shadow: none;
     }
 }
