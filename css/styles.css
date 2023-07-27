@@ -197,7 +197,7 @@ li {
         position: absolute;
         z-index: 9999;
         background-color: transparent;
-        background-image: url("images/hamburger-menu.svg");
+        background-image: url('/images/hamburger-menu.svg');
         background-repeat: no-repeat;
         width: 2rem;
         border: 0;
@@ -207,7 +207,7 @@ li {
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url("images/cross.svg");
+        background-image: url('/images/cross.svg');
         position: fixed;
         /* aspect-ratio: 1/1; */
         /* width: 1.8rem; */
@@ -260,6 +260,12 @@ li {
     line-height: 1;
     left: -0.15em;
     top: 0;
+}
+
+@media (max-width: 35em) {
+    .hero-1::after {
+        font-size: 25em;
+    }
 }
 
 .hero-container {
