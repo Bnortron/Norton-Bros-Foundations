@@ -291,13 +291,23 @@ li {
     /* margin-left: 50%; */
 }
 
-@supports((text-stroke: 0.01px #735e8f) or (-webkit-text-stroke: 0.01px #735e8f)) {
+@supports(-webkit-text-stroke: 0.01px #735e8f) {
     .hero-subtitle {
         color: transparent;
         -webkit-text-stroke: 0.01px #735e8f;
 		/* text-stroke: 0.01px #735e8f; */
         text-shadow: none;
     }
+}
+
+.text-shadow {
+    font-weight: bolder; 
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #735e8f,
+        -1px -1px 0 #735e8f,
+        -1px -1px 0 #735e8f,
+        -1px -1px 0 #735e8f;
 }
 
 .hero-description {
