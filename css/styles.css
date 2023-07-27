@@ -1010,7 +1010,7 @@ section {
     position: relative;
     /* background: linear-gradient(to right, #161616, #2d024d); */
     /* background: url('/images/purple-poly-bg.svg'); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.418)), url('/images/purple-poly-bg.svg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.418)), url('images/purple-poly-bg.svg');
     z-index: 1;
 }
 
@@ -1021,10 +1021,10 @@ section {
     width: 100%;
     height: var(--spike-height);
     background: var(--spike-color);
-    -webkit-mask-image: url('/images/triangle.svg');
+    -webkit-mask-image: url('images/triangle.svg');
     -webkit-mask-size: var(--spike-width) var(--spike-height);
     /* -webkit-mask-repeat: repeat-x; */
-    mask-image: url('/images/triangle.svg');
+    mask-image: url('images/triangle.svg');
     mask-size: var(--spike-width) var(--spike-height);
     /* mask-repeat: repeat-x; */
 }
@@ -1040,7 +1040,7 @@ section {
 
 .wavy {
     /* background: linear-gradient(to right, #141414, #D4AF37); */
-    background: url('/images/purple-poly-bg.svg');
+    background: url('images/purple-poly-bg.svg');
     /* height: 15em; */
 
 
