@@ -291,23 +291,22 @@ li {
     /* margin-left: 50%; */
 }
 
-@supports(-webkit-text-stroke: 0.01px #735e8f) {
+/* @supports(-webkit-text-stroke: 0.01px #735e8f) {
     .hero-subtitle {
         color: transparent;
         -webkit-text-stroke: 0.01px #735e8f;
-		/* text-stroke: 0.01px #735e8f; */
         text-shadow: none;
     }
-}
+} */
 
-.text-shadow {
+.hero-subtitle {
     font-weight: bolder; 
-    color: white;
+    color: #181028;
     text-shadow: 
+        0.5px 1px 0 #735e8f,
         -1px -1px 0 #735e8f,
         -1px -1px 0 #735e8f,
-        -1px -1px 0 #735e8f,
-        -1px -1px 0 #735e8f;
+        1px -1px 0 #735e8f;
 }
 
 .hero-description {
