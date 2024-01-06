@@ -143,13 +143,13 @@ li {
 
     /* border: 2px solid white; */
     background: hsla(0, 0%, 0%, 0.1);
-    /* backdrop-filter: blur(1rem); */
+    backdrop-filter: blur(16px);
 }
 
 @supports (backdrop-filter: blur(1rem)) {
     .primary-navigation {
         background: hsla(0, 0%, 0%, 0.1);
-        backdrop-filter: blur(1rem);
+        backdrop-filter: blur(16px);
     }
 }
 
@@ -1396,7 +1396,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+}
 
   /* Services Section */
   .services-header {
