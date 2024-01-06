@@ -613,6 +613,15 @@ hr.rounded {
 } */
 
 /* VISION SECTION */
+.vision-text {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    display:inline;
+    border-bottom: 2px solid #fff;
+}
+
 .vision-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -667,13 +676,17 @@ hr.rounded {
     /* margin: 0; */
 }
 
-@media (max-width: 35em) {
+@media (max-width: 50em) {
     .vision-container {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .owners-image {
         height: 25em;
+    }
+
+    .vision-text {
+        font-size: 1.5rem;
     }
 }
 
@@ -1383,4 +1396,100 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  /* Services Section */
+  .services-header {
+    margin: 0;
+    text-align: start;
+    /* font-family: sans-serif; */
+    font-weight: 400;
+  }
+
+  .services-text {
+    text-align: start;
+  }
+
+  /* Footings Section */
+  .footings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .footings-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+/* Singles Section */
+  .singles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .singles-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+
+
+  /* Blocks Section */
+  .blocks-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  @media (max-width: 50em) {
+    .blocks-container {
+        flex-direction: column;
+    }
+  }
+
+  .blocks-img {
+    margin: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 15em;
+  }
+
+  /* Repairs Section */
+  .repairs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .repairs-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .repairs-img {
+    margin: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 15em;
+  }
+
+  /* Waterproofing Section */
+  .waterproofing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
