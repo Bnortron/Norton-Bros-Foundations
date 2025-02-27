@@ -40,22 +40,22 @@
         <nav>
             <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
                 <li class="active">
-                    <a href="index.html">
+                    <a href="#about-us">
                         <span aria-hidden="true">00 </span>ABOUT US
                     </a>
                 </li>
                 <li>
-                    <a href="index.html">
+                    <a href="#services">
                         <span aria-hidden="true">01 </span>OUR WORK
                     </a>
                 </li>
                 <li>
-                    <a href="index.html">
+                    <a href="#social-media">
                         <span aria-hidden="true">02 </span>Follow Us
                     </a>
                 </li>
                 <li>
-                    <a href="index.html">
+                    <a href="#contact-us">
                         <span aria-hidden="true">03 </span>Contact Us
                     </a>
                 </li>
@@ -173,7 +173,8 @@
                         extensive expertise, attention to detail, and commitment to quality to every project.
                     </p>
 
-                    <button class="button type1">
+                    <button class="button type1"
+                        onclick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' });">
                         <span class="btn-txt">Services</span>
                     </button>
                 </div>
@@ -191,7 +192,7 @@
 
     <!-- Vision Section -->
     <section>
-        <div class="wrapper-two">
+        <div class="wrapper-two" id="about-us">
             <div class="vision-container">
                 <div class="vision-img-container">
                     <img class="owners-image" src="images/owners.jpg" alt="">
@@ -256,7 +257,7 @@
     </section>
 
     <!-- Accordian Slider -->
-    <section class="spikes">
+    <section class="spikes" id="services">
         <div class="wrapper-two">
             <h2 class="services-title">Services</h2>
             <div class="accordion">
@@ -637,7 +638,7 @@
         </div>
     </section>
 
-    <section class="spikes">
+    <section class="spikes" id="contact-us">
         <div class="wrapper-two">
             <div class="contact-container" id="contact-container">
                 <h2 class="contact-header">Get a free quote</h2>
@@ -659,7 +660,7 @@
 
     </section>
 
-    <section class="social-media">
+    <section class="social-media" id="social-media">
         <div class="wrapper-two">
             <h2 class="soc-title">Follow Us</h2>
             <ul class="soc">
