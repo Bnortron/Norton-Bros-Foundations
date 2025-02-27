@@ -800,6 +800,7 @@ hr.rounded {
 .accordion-description {
     margin-inline: 0.5rem;
     margin-top: 1rem;
+    font-size: 0.75rem;
 }
 
 /* .accordion-title::after {
@@ -838,7 +839,7 @@ hr.rounded {
 }
 
 .accordion-panel:has([aria-expanded="true"]) .accordion-image {
-    filter: brightness(0.4);
+    filter: brightness(0.25);
 }
 
 .accordion-trigger {
@@ -1246,7 +1247,7 @@ footer {
     margin: 0;
     color: #ffffffd8;
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* text-transform: u; */
     /* flex-wrap: nowrap; */
     text-align: start;
@@ -1492,4 +1493,9 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+
+  /* General styling */
+  .fs-bold {
+    font-weight: 700;
   }
