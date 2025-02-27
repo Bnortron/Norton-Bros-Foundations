@@ -74,7 +74,8 @@
                         area with
                         nearly a decade of experience of transforming your vision into concrete reality.
                     </p>
-                    <button class="button type1">
+                    <button class="button type1"
+                        onclick="document.getElementById('contact-container').scrollIntoView({ behavior: 'smooth' });">
                         <span class="btn-txt">Contact</span>
                     </button>
                 </div>
@@ -591,7 +592,7 @@
 
     <section class="spikes">
         <div class="wrapper-two">
-            <div class="contact-container">
+            <div class="contact-container" id="contact-container">
                 <h2 class="contact-header">Get a free quote</h2>
                 <div class="form-container">
                     <form class="form" action="https://formspree.io/f/mgegedjv" method="POST">
